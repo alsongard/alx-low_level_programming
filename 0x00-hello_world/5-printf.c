@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main -
+ * main - Entry point
  * description-Write a cprogram that prints
  * Return: 0 (Success)
  */
