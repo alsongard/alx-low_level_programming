@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
- * main-
- *description-Write a cprogram that prints
+ * main -
+ * description-Write a cprogram that prints
  * Return: 0 (Success)
  */
 
