@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - Entry point
+ * main - Entry point/start program
  * Description - compare the random generated interger
  * Return: 0 (Successfull)
  */
@@ -11,7 +11,7 @@ int main(void)
 	int n;
 
 	int lastDgt;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
