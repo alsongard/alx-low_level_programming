@@ -6,8 +6,7 @@
  * main - Entry Point
  * Descrition - prints the type of number wheter positive,negative or zero
  * Return: 0 (Successfull)
- * */
-
+ */
 int main(void)
 {
 	int n;
