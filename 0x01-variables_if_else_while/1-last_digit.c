@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - Entry point/start program
+ * main - used to compare a digit to three options
  * Description - compare the random generated interger
  * Return: 0 (Successfull)
  */
