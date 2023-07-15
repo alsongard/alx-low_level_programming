@@ -2,9 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */
+/**
+ * main - Entry Point
+ * Descrition - prints the type of number wheter positive,negative or zero
+ * Return: 0 (Successfull)
+ * */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
