@@ -1,0 +1,25 @@
+#include<stdio.h>
+/**
+ * main -Entry Point
+ * description - check whether value is postive,negative or zero
+ * Return - o (successful)
+ */
+
+int main(void)
+{
+	int a;
+	printf("enter any number:\n");
+	scanf("%d\n", &a);
+
+	if(a > 0)
+	{
+		printf("the value entered is a potive number\n");
+	}
+	else if(a < 0)
+	{
+		printf("the value entered is a negative number\n");
+	}
+	esle{
+		printf("the value entered is zero\n");
+	}
+}
