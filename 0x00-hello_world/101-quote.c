@@ -8,6 +8,6 @@
 
 int main(void)
 {
-	printf("Write a C program that prints exactly\n");
+	printf("and that piece of art is useful\" - Dora Korpar, 2015-10-1 \n");
 	return (1);
 }
