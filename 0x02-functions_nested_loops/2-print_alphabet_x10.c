@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main -print all alphabet
+ * print_alphabet_x10 - start of prgm
  *
  * Description - print all alphabets 10 times
  * Return: void
