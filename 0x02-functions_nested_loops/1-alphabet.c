@@ -6,8 +6,9 @@
  * Return : 0 (Success)
  */
 
+/* print all  small alphabets */
 void print_alphabet(void)
-/* print small alphabets */
+/* print all  small alphabets */
 {
 	char let;
 
