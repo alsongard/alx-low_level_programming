@@ -2,6 +2,7 @@
 /**
  * _islower - check for  lowercase
  *
+ *@c - character to be checked
  * Description - Chek for lower case
  * Return: (0) or (1)
  */
