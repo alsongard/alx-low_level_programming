@@ -7,6 +7,7 @@
  */
 
 void print_alphabet(void)
+/* print small alphabets */
 {
 	char let;
 
