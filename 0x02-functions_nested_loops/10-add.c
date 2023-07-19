@@ -2,16 +2,13 @@
 /**
  * add - add two numbers
  *
- * @n: the two numbers to add
+ * @num2: integer number 2
+ * @num1: integer number 1
  * Description -  add two numbers
- * Return: (Sum)
+ * Return: (num1 + num2)
  */
 
 int add(int num1, int num2)
 {
-	int sum;
-
-	sum =  num1 + num2;
-	_putchar(sum + '0');
-	return (sum);
+	return (num1 + num2);
 }
