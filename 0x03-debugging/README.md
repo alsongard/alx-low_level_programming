@@ -1,1 +1,1 @@
-debugging of softwares/programs in c using duck debugging method
+0X03. c - debugging
