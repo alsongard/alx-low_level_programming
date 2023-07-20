@@ -1,6 +1,9 @@
-#ifndef MAIN_HEADER_FILE
-#define MAIN_HEADER_FILE
+#ifndef main.h
+#define main.h
 
-void positive_or_negative(int i)
-int main(void)
+#include <stdio.h>
+
+void positive_or_negative(int i);
+int main(void);
+
 #endif
