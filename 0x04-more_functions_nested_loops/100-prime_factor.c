@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main() - prints the largest primme factor of 612852475143
+ * main - prints the largest primme factor of 612852475143
  * Return: 0 (Success)
  */
 
