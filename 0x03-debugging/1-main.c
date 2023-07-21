@@ -1,26 +1,22 @@
-#include <stdio.h>
-
+#include "stdio.h"
 /**
-* main - causes an infinite loop
-* @i: intger to be tested
-* Return: (void)
-*/
+ * main - causes a infinite loop
+ * Return: 0 (success)
+ */
 
 int main(void)
 {
-        int i;
+	int i;
 
-        printf("Infinite loop incoming :(\n");
+	printf("Infinite loop incoming :(\n");
 
-        i = 0;
-
+	i = 0;
 	/*
-        while (i < 10)
-        {
-                putchar(i);
-        }
-	*/
-        printf("Infinite loop avoided! \\o/\n");
-
-        return (0);
+	 * while (i < 10)
+	 * {
+	 * _putchar(i)
+	 * }
+	 */
+	printf("infinte loop avoided! \\0/\n");
+	return (0);
 }
