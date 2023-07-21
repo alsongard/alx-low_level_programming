@@ -2,7 +2,8 @@
 
 /**
 * main - causes an infinite loop
-* Return: 0
+* @i: intger to be tested
+* Return: (void)
 */
 
 int main(void)
