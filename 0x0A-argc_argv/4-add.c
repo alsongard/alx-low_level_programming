@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - entry point for program
  * @argv: string for the arguments
@@ -19,7 +20,7 @@ int main(int argc, char *argv[])
 	{
 		if ((argv[a] >= 'a' && argv[a] <= 'z') && (argv[a] >= 'A' && argv[a] <= 'Z'))
 		{
-			printf("Error");
+			printf("Error\n");
 			return (1);
 		}
 		else
@@ -27,6 +28,6 @@ int main(int argc, char *argv[])
 			sum = sum + atoi(argv[a]);
 		}
 		printf("%d\n", sum);
-		return (0);
 	}
+	return (0);
 }
