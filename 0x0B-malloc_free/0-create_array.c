@@ -9,14 +9,17 @@
 
 char *create_array(unsigned int size, char c)
 {
-	int j, i;
+	char *str;
+	unsigned int i;
 
-	for (; c < size ; c++)
+	str = malloc(sizeof(c) * size);
+	if (size == 0 || str == NULL)
 	{
-		for (j = 0 ; j <= 9 ; j++)
-		{
-			_putchar(c);
-		}
+		return (NULL);
 	}
-	_putchar('\n');
+	for (i = 0 ; i < size ; i++)
+	{
+		str[i] = c;
+	}
+	return (str);
 }
