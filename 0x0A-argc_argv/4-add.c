@@ -1,33 +1,56 @@
 #include <stdio.h>
+#include <string.h>
+#include <ctype.h>
 #include <stdlib.h>
-/**
- * main - entry point for program
- * @argv: string for the arguments
- * @argc: count number of arguments
- * Return: (1) or (0)
- */
 
+/**
+ * check_sum - print sum of numbers
+ * @str: string to be checked
+ * Return: 0 (Success)
+ */
+int check_sum(char  *str)
+{
+	unsigned int count;
+
+	count = 0;
+	while (count < strlen(str))
+	{
+		if (!isdigit(str[count]))
+		{
+			return (0);
+		}
+		count++;
+	}
+	return (1);
+}
+
+/**
+ * main - Entry point
+ * @argc: count of arguments
+ * @argv: string hold arguments
+ * Return: 0 (Success)
+ */
 int main(int argc, char *argv[])
 {
-	int a;
+	int count;
+	int str_to_int;
 	int sum = 0;
-
-	if (argc < 1)
+ 
+	count = 1;
+	while (count < argc)
 	{
-		printf("0");
-	}
-	for (a = 0 ; a < argc ; a++)
-	{
-		if ((argv[a] >= 'a' && argv[a] <= 'z') && (argv[a] >= 'A' && argv[a] <= 'Z'))
+		if (check_sum(argv[count]))
+		{
+			str_to_int = atoi(argv[count]);
+			sum += str_to_int;
+		}
+		else
 		{
 			printf("Error\n");
 			return (1);
 		}
-		else
-		{
-			sum = sum + atoi(argv[a]);
-		}
-		printf("%d\n", sum);
+		count++;
 	}
+	printf("%d\n", sum);
 	return (0);
 }
