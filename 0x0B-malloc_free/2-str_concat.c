@@ -12,9 +12,13 @@ char *str_concat(char *s1, char *s2)
 	char *ptr;
 	int a, b;
 
-	if (s1 == NULL || s2 == NULL)
+	if (s1 == NULL)
 	{
-		return (NULL);
+		s1 = "";
+	}
+	if (s2 == NULL)
+	{
+		s2 = "";
 	}
 	a = 0;
 	b = 0;
