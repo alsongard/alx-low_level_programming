@@ -1,11 +1,11 @@
 #include "dog.h"
-#include <stdio.h>
+#include <stdlib.h>
 /**
  * free_dog - Free memory of pointer t
- * @t: pointer to structure
+ * @d: pointer to structure
  * Return: (void)
  */
-void free_dog(dog_t *t)
+void free_dog(dog_t *d)
 {
 	if (d == NULL)
 	{
