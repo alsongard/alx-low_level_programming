@@ -9,7 +9,7 @@ int op_mod(int a, int b);
  * op_add - add two intergers
  * @a: integer one
  * @b: integer two
- * @Return: interger
+ * Return: interger
  */
 int op_add(int a, int b)
 {
