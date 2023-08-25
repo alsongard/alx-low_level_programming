@@ -1,4 +1,4 @@
-#include "liss.h"
+#include "lists.h"
 #include <stdio.h>
 /**
  * print_list - print all elements of a linked lists
@@ -11,7 +11,7 @@ size_t print_list(const list_t *h)
 
 	while (h)
 	{
-		if (!h->sr)
+		if (!h->str)
 		{
 			printf("[0] (nill)\n");
 		}
