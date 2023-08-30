@@ -4,6 +4,7 @@
  * @head: double pointer to the first element
  * @idx: index in the lists for data to insert
  * @n: data to be added
+ * Return: pointer to new node
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
@@ -14,7 +15,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	new = malloc(sizeof(listint_t));
 	if (!new || !head)
 	{
-		reurn (NULL);
+		return (NULL);
 	}
 	new->n = n;
 	new->next = NULL;
@@ -30,7 +31,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		if (i == idx - 1)
 		{
 			new->next = temp->next;
-			temp-next = new;
+			temp->next = new;
 			return (new);
 		}
 		else
