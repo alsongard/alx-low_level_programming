@@ -1,20 +1,20 @@
 #include "main.h"
-#incude <stdio.h>
+#include <stdio.h>
 /**
  * _sqrt_recursion - returns the natural squareroot of an int
  * @n: integer to calculta squareroot
- * return: (integer)
+ * Return: (integer)
  */
 int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
 }
 /**
- * -sqrt - Calculates natural square root
+ * _sqrt - Calculates natural square root
  * @n: number to calculate the squeare toot
  * @i: iterate number
  *
- * return: the natural square toot
+ * Return: the natural square toot
  */
 int _sqrt(int n, int i)
 {

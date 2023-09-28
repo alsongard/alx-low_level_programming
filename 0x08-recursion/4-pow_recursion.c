@@ -3,7 +3,7 @@
  * _pow_recursion - print the power of int x
  * @y: integer to st power
  * @x: intger to be raised to power
- * return: (integer)
+ * Return: (integer)
  */
 int _pow_recursion(int x, int y)
 {
@@ -15,5 +15,5 @@ int _pow_recursion(int x, int y)
 	{
 		return (1);
 	}
-	return (x * _pow_recursion(x, y-1));
+	return (x * _pow_recursion(x, y - 1));
 }

@@ -1,6 +1,6 @@
 #iclude "main.h"
 /**
- * _print_rev_recursion =print string in reverse
+ * _print_rev_recursion - print string in reverse
  * @s: pinter to string
  * Return: (void)
  */
